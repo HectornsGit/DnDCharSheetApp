@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("./app/home/home.component.css");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --gold: #f5ba4d;
+  --black: #101010;
+  --darkGrey: #232323;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--darkGrey);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
